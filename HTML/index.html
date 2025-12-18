@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="../JS/script.js" defer></script>
     <title>Wheater App</title>
 </head>
 <body>
@@ -15,30 +17,30 @@
         <div class="card">
             <div class="search-bar">
                 <input type="text" placeholder="Ingrese el nombre de la ciudad" spellcheck="false" name="" id="">
-                <button>
-                    <img src="search-icon.png" alt="Buscar">
+                <button type="button" title="Buscar">
+                    <i class="fa fa-search"></i>
                 </button>
             </div>
 
-            <div class="eror">
+            <div class="error">
                <p>Nombre de la ciudad inválido</p> 
             </div>
 
-            <div class="weather">
-                <img src="" alt="" class="wheater-icon"> <!-- Foto de lluvia-->
+            <div class="wheater">
+                <img src="https://cdn-icons-png.flaticon.com/512/2551/2551210.png" alt="wheater" class="wheater-icon"> <!-- Foto de lluvia-->
                 <h1 class="temp">23 &deg;C</h1>
                 <h2 class="city">Villahermosa</h2>
 
                 <div class="details">
                     <div class="col">
-                        <img src="" alt=""> <!-- Icono de humedad -->
+                        <img src="https://cdn-icons-png.flaticon.com/512/5664/5664982.png" alt="humidity"> <!-- Icono de humedad -->
                         <div>
                             <p class="humidity">60%</p>
                             <p>Humedad</p>
                         </div>
                     </div>
                     <div class="col">
-                        <img src="" alt=""> <!-- Icono de viento -->
+                        <img src="https://png.pngtree.com/png-clipart/20230429/original/pngtree-wind-sign-line-icon-png-image_9119562.png" alt="wind"> <!-- Icono de viento -->
                         <div>
                             <p class="wind-speed">10 km/h</p>
                             <p>Velocidad del Viento</p>
